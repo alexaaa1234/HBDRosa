@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <title>Feliz Cumpleaños</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="mobile.css"
+      media="only screen and (max-width: 768px)"
+    />
+  </head>
+  <body>
+    <!--Confeti Atras-->
+    <canvas id="canvas1"></canvas>
+
+    <div class="contenedor">
+      <!-- PortaRetrato -->
+      <div class="portaretrato-torta-caja">
+        <div class="portaretrato">
+          <div class="marco">
+            <img src="tae.jpeg" alt="Foto" />
+          </div>
+          <div class="soporte-marco"></div>
+        </div>
+
+        <!--Torta De Cumpleaños-->
+        <div class="torta-cumpleaños">
+          <div class="torta">
+            <div class="chocolate"></div>
+          </div>
+          <div class="vela"></div>
+          <div class="llama"></div>
+        </div>
+
+        <!--Caja De Regalo-->
+        <div class="caja-wrapper">
+          <div class="caja">
+            <div class="cinta-de-regalo">
+              <div class="cinta-de-regalo-izquierda"></div>
+              <div class="cinta-de-regalo-derecha"></div>
+              <div class="cinta-de-regalo-centro"></div>
+            </div>
+            <div class="regalos">
+              <div class="regalo-sombra"></div>
+            </div>
+            <div class="regalo"></div>
+            <div class="icono-estrella estrella1"></div>
+            <div class="icono-estrella estrella2"></div>
+            <div class="icono-estrella estrella3"></div>
+            <div class="icono-estrella estrella4"></div>
+            <div class="icono-estrella estrella5"></div>
+          </div>
+        </div>
+
+        <!--Mensaje Feliz Cumpleaños-->
+        <div class="happy-birthday">Happy Birthday</div>
+      </div>
+
+      <!--Mesa-->
+      <div class="soporte"></div>
+    </div>
+
+    <!-- Carta Modal -->
+    <div class="modal-carta" id="modalCarta">
+      <div class="contenido-carta">
+        <div class="carta">
+          <h2>Jochis queridaaa</h2>
+          <p>
+            Hoy se cumplen 20 años (ya estás ancianaaa jijiji) desde que una jochis llegó a este mundo. En este día tan especial quiero desearte un feliz cumpleaños lleno
+            de alegría, risas y momentos inolvidables. Me da mucho gusto haber coincidido contigo en esa partida de free. De todos los random que me pudo tocar, me tocó la mejor persona (y jochis 🤪). Graciosa, atenta, amigable, que sabe escuchar, con la que puedes hablar temas que con los demás les puede resultar incómodo pero con ella hasta te puede sacar alguna que otra risa, que si le dices algo ella lo recuerda, por ejemplo, "x día voy a tener examen" y ella ese día te pregunta qué tal te fue o un día antes te desea suerte. Esos detalles valen mucho. Las personas que tienen la dicha de estar con alguien como tú es enorme. En fin, me da mucho gusto haberte conocido y espero que este día (tu día) esté lleno de alegría y este nuevo año te traiga todo lo bonito que te mereces.
+          </p>
+          <p class="firma">Con cariño y un besito en el "cuycuy",<br />Alexaa</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Confeti Delante-->
+    <canvas id="canvas2"></canvas>
+
+    <!--Todo Oscuro-->
+    <audio id="soplido" src="soplar1.mp3" preload="auto"></audio>
+    <audio id="cancion" src="life goes on bts.mp3" preload="auto"></audio>
+    <div class="overlay"></div>
+
+    <script src="Confeti.js"></script>
+    <script src="Confeti2.js"></script>
+    <script src="Sorpresa.js"></script>
+  </body>
+</html>
+
+
